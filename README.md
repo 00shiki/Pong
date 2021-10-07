@@ -6,4 +6,4 @@ Petunjuk: lakukan implementasi di metode BallControl.PushBall(), dan ingat bahwa
 
 ## Solution
 
-Setelah memperhatikan jalannya bola bergerak saya jadi tahu bahwa xInitialForce selalu konstan, sedangkan yInitialForce berubah-ubah. Hal itu mengakibatkan gaya pada vektor bola tidak konstan dan berubah-ubah. Oleh karena itu, saya mengubah xRandomInitialForce yang berubah berdasarkan perubahakan yRandomInitialForce. Saya menggunakan rumus vektor yang berbunyi $v^2$ = $v_x^2$ + $v_y^2$ . Sehingga laju bola sekarang sudah konstan.
+Setelah memperhatikan jalannya bola bergerak saya jadi tahu bahwa xInitialForce selalu konstan, sedangkan yInitialForce berubah-ubah. Hal itu mengakibatkan gaya pada vektor bola tidak konstan dan berubah-ubah. Oleh karena itu, saya mengubah xRandomInitialForce yang berubah berdasarkan perubahakan yRandomInitialForce. Saya menggunakan rumus vektor yang berbunyi v^2 = v_x^2 + v_y^2 . Sehingga laju bola sekarang sudah konstan.
